@@ -11,7 +11,7 @@ eruda.init()
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <TonConnectUIProvider manifestUrl={manifestUrl}>
-    <BrowserRouter basename={"/pol-tma"}>
+    <BrowserRouter basename={"/betting"}>
       <App />
     </BrowserRouter>
   </TonConnectUIProvider>,
